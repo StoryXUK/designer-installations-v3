@@ -7242,31 +7242,31 @@ section {
   background-image: url('images/plan-bg.webp');
 }
 .pheader-team {
-  background-image: url('https://via.placeholder.com/1920x500.png');
+  background-image: url('images/plan-bg.webp');
 }
 .pheader-services {
-    background-image: url(https://via.placeholder.com/1920x500.png);
+    background-image: url('images/plan-bg.webp');
 }
 .pheader-about {
-    background-image: url(https://via.placeholder.com/1920x500.png);
+    background-image: url('images/plan-bg.webp');
 }
 .pheader-process {
-    background-image: url(images/plan-bg.webp);
+    background-image: url('images/plan-bg.webp');
 }
 .pheader-studio {
-    background-image: url(images/plan-bg.webp);
+    background-image: url('images/plan-bg.webp');
 }
 .pheader-typo {
-    background-image: url(images/plan-bg.webp);
+    background-image: url('images/plan-bg.webp');
 }
 .pheader-faq {
-    background-image: url(images/plan-bg.webp);
+    background-image: url('images/plan-bg.webp');
 }
 .pheader-portfolio {
-    background-image: url(images/bathroom-5.webp);
+    background-image: url('images/bathroom-5-bg.webp');
 }
 .pheader-portfolio-detail {
-    background-image: url(images/bathroom-5.webp);
+    background-image: url('images/bathroom-5-bg.webp');
 }
 
 /* Post */
@@ -7291,7 +7291,7 @@ section {
 .contact-right {
     padding-left: 75px;
     padding-right: 40px;
-    background-image: url('https://via.placeholder.com/510x680.png');
+    background-image: url('images/contact-bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7349,7 +7349,7 @@ section {
 }
 .principes {
     background-color: #F4F4F4;
-    background-image: url(https://via.placeholder.com/411x610.png);
+    background-image: url('images/plan-bg.webp');
     background-position: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -7661,7 +7661,7 @@ section {
 }
 /* Our process */
 .our-process {
-    background-image: url(https://via.placeholder.com/1920x1612.png);
+    background-image: url('images/plan-bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7670,7 +7670,7 @@ section {
     margin-bottom: 50px;
 }
 .process-step {
-    background-image: url(https://via.placeholder.com/1183x533.png);
+    background-image: url('images/plan-bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7709,7 +7709,7 @@ section {
     background-repeat: no-repeat;
 }
 .our-studio-detail {
-    background-image: url(https://via.placeholder.com/375x375.png);
+    background-image: url('images/home-plan-sq.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
