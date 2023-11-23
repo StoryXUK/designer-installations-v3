@@ -7999,7 +7999,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 }
 .coming-soon {
     height: 100vh;
-    background-image: url(https://via.placeholder.com/1920x1080.png);
+    background-image: url('images/coming-soon.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8560,7 +8560,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     color: #A3A3A3;
 }
 .our-portfolio-1 {
-    background-image: url(https://via.placeholder.com/1920x1415.png);
+    background-image: url('images/bathroom-1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 105px;
