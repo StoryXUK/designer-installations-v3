@@ -1,18 +1,4 @@
-@charset "UTF-8";
-/*
-Theme Name: Theratio
-Theme URI: http://templates.thememodern.com/theratio/index.html
-Author: ThemeModern
-Author URI: http://thememodern.com
-Description: Theratio is a WordPress theme for Interior Design & Architecture Company. Theratio is easy to use, it provides everything you need to create great looking website. With Theratio you can impress your customer by it’s professional design and the interactivity. Theratio built with latest website technology to ensure your website is looks nice on desktop and mobile. Get Theratio now!
-Version: 1.0
-License: GNU General Public License v2+
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: theratio
-Domain Path: /languages/
-Tags: one-column, two-columns, left-sidebar, right-sidebar, full-width-template, post-formats, theme-options, threaded-comments, translation-ready
 
-*/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -6123,7 +6109,7 @@ object {
 ## Miscellaneous
 --------------------------------------------------------------*/
 .site-overlay {
-  cursor: url(https://via.placeholder.com/32x32.png) 16 16, default;
+  cursor: url(images/x.webp) 16 16, default;
   background: transparent;
   width: 100vw;
   height: 100vh;
@@ -6870,7 +6856,7 @@ div.elementor-widget-heading .elementor-heading-title {
 }
 
 .side-panel {
-  width: 400px;
+  width: 500px;
   position: fixed;
   top: 0;
   bottom: 0;
