@@ -5,24 +5,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    // Validate data (you can add more validation if needed)
+    // You can add additional validation or processing here
 
-    // Send email
+    // Send email (example)
     $to = "james@story-x.co.uk";
-    $subject = "New Form Submission";
-    $headers = "From: $email\r\n";
-    $headers .= "Reply-To: $email\r\n";
+    $subject = "New Contact Form Submission";
+    $headers = "From: $email";
 
-    // Build email body
-    $body = "Name: $name\n";
-    $body .= "Email: $email\n";
-    $body .= "Message:\n$message";
+    // Customize the email body as needed
+    $email_body = "Name: $name\n";
+    $email_body .= "Email: $email\n";
+    $email_body .= "Message:\n$message";
 
-    // Send email
-    mail($to, $subject, $body, $headers);
+    // Send the email
+    mail($to, $subject, $email_body, $headers);
 
     // Optionally, you can redirect the user to a thank you page
     header("Location: thank_you.html");
-    exit;
+    exit();
 }
 ?>
