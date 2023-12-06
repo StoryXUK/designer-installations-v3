@@ -1,9 +1,9 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
     // Collect form data
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
+    $name = htmlspecialchars($_POST["name"]);
+    $email = htmlspecialchars($_POST["email"]);
+    $message = htmlspecialchars($_POST["message"]);
 
     // You can add additional validation or processing here
 
@@ -20,8 +20,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send the email
     mail($to, $subject, $email_body, $headers);
 
-    // Optionally, you can redirect the user to a thank you page
-    header("Location: thank_you.html");
-    exit();
+    // You can customize the response message
+    $response = array("status" => "success", "message" => "Your message has been sent successfully!");
+
+    // Convert the array to JSON and echo it
+    echo json_encode($response);
+} else {
+    // Invalid request
+    $response = array("status" => "error", "message" => "Invalid request. Please check your form and try again.");
+    echo json_encode($response);
 }
 ?>
