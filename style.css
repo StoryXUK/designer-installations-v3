@@ -10319,3 +10319,10 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 }
 
 .font_white {color: white !important;}
+
+@media screen and (max-width: 600px) {
+  /* Style to hide the element on smaller screens */
+  .mobile-remove {
+    display: none;
+  }
+}
