@@ -10326,3 +10326,6 @@ ul.style-default li:last-child, ol.style-default li:last-child {
     display: none;
   }
 }
+
+
+.text-white {color: white !important;}
