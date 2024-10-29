@@ -3718,37 +3718,37 @@ object {
   border-bottom-color: #fff;
 }
 
-.theratio-align-center .ot-heading.is-dots:before {
+.Designer Installations-align-center .ot-heading.is-dots:before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-.theratio-align-right .ot-heading.is-dots:before {
+.Designer Installations-align-right .ot-heading.is-dots:before {
   left: auto;
   right: 2px;
 }
 
-.theratio-align-left .ot-heading.is-dots:before {
+.Designer Installations-align-left .ot-heading.is-dots:before {
   left: 1px;
   right: auto;
 }
 
 @media (max-width: 1024px) {
-  .theratio-tablet-align-center .ot-heading.is-dots:before {
+  .Designer Installations-tablet-align-center .ot-heading.is-dots:before {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
 
-  .theratio-tablet-align-right .ot-heading.is-dots:before {
+  .Designer Installations-tablet-align-right .ot-heading.is-dots:before {
     left: auto;
     right: 2px;
   }
 
-  .theratio-tablet-align-left .ot-heading.is-dots:before {
+  .Designer Installations-tablet-align-left .ot-heading.is-dots:before {
     left: 1px;
     right: auto;
   }
@@ -3770,19 +3770,19 @@ object {
     width: 40px;
   }
 
-  .theratio-mobile-align-center .ot-heading.is-dots:before {
+  .Designer Installations-mobile-align-center .ot-heading.is-dots:before {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
 
-  .theratio-mobile-align-right .ot-heading.is-dots:before {
+  .Designer Installations-mobile-align-right .ot-heading.is-dots:before {
     left: auto;
     right: 2px;
   }
 
-  .theratio-mobile-align-left .ot-heading.is-dots:before {
+  .Designer Installations-mobile-align-left .ot-heading.is-dots:before {
     left: 1px;
     right: auto;
   }
@@ -7832,7 +7832,7 @@ section {
 .typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6 {
     margin-bottom: 25px;
 }
-.theratio-separato {
+.Designer Installations-separato {
     height: 1px;
     width: 100%;
     background-color: rgba(0,0,0,.1);
@@ -8513,7 +8513,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
  .side-panel.side-panel-left.side-panel-open {
     transform: translateX(0);
 }
-.bg-dark-theratio {
+.bg-dark-Designer Installations {
     background-color: #0A0A0A;
 }
 /* Index 2 */
